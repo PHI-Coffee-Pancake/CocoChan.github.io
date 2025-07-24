@@ -76,6 +76,7 @@
 <body>
   <div class="player-container">
     <h1>PHI Coffee & Pancake Music Cue!</h1>
+    <img src="pancake.jpg" alt="黃金比例．原味梳乎厘.jpg">
 
     <button id="start-button">▶Start Right Now!!!!</button>
 
