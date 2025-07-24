@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PHI Coffee & Pancake : Music Time!!</title>
+  <title>PHI Coffee & Pancake Music Cue</title>
   <style>
     html, body {
       margin: 0;
       padding: 0;
       height: 100%;
-      background-color: #fff8f0;
-      font-family: Chalkduster, fantasy, cursive;
+      background: #fff8f0;
+      font-family: Arial, sans-serif;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -26,7 +26,7 @@
       text-align: center;
     }
     h1 {
-      color: #d6bea3;
+      color: #FF4500;
       margin-bottom: 30px;
       font-size: 36px;
       font-weight: bold;
@@ -34,7 +34,7 @@
       animation: pulse 1.5s infinite;
     }
     #start-button {
-      background-color: #c4af97;
+      background-color: #e6cdb1;
       border: none;
       color: white;
       padding: 15px 30px;
@@ -47,25 +47,25 @@
       transition: 0.3s;
     }
     #start-button:hover {
-      background-color: #c4af97;
+      background-color: #e6cdb1;
       transform: scale(1.05);
     }
     .brand-message {
       margin-top: 30px;
       font-size: 22px;
-      color: #fff8f0;
+      color: #FF4500;
       font-weight: bold;
-      text-shadow: 0 0 10px #FFD700;
+      text-shadow: 0 0 10px #e3ccb1, 0 0 20px #ab9276;
       animation: glow 2s infinite alternate;
     }
     @keyframes glow {
-  from {
-    text-shadow: 0 0 10px #FFD700, 0 0 20px #c4af97;
-  }
-  to {
-    text-shadow: 0 0 20px #FFD700, 0 0 30px #c4af97;
-  }
-}
+      from {
+        text-shadow: 0 0 10px #e3ccb1, 0 0 20px #ab9276;
+      }
+      to {
+        text-shadow: 0 0 20px #e3ccb1, 0 0 30px #ab9276;
+      }
+    }
     @keyframes pulse {
       0% { transform: scale(1); }
       50% { transform: scale(1.05); }
@@ -75,12 +75,12 @@
 </head>
 <body>
   <div class="player-container">
-    <h1>PHI Coffee & Pancake Music Cue!</h1>
-    
-    <button id="start-button">▶Start Right Now!!!!</button>
+    <h1>PHI Coffee & Pancake Music Cue🔥</h1>
+
+    <button id="start-button">▶Music Start Now </button>
 
     <div class="brand-message">
-      🎶 Let's Dance with PHI 🎶
+      🎶 Let's sing with PHI 🎶
     </div>
   </div>
 
@@ -89,8 +89,8 @@
   <script>
     // Playlist設定
     const playlist = [
-      "PHI_MUSIC_01 (1) (1).mp3.mp3",
-      "PHI_MUSIC_02 (1) (1).mp3.mp3"
+      "PHI_MUSIC_01 (1) (1).mp3",
+      "PHI_MUSIC_02 (1) (1).mp3"
     ];
 
     const audioPlayer = document.getElementById('audio-player');
